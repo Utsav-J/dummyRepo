@@ -4,7 +4,7 @@
 let id:number = 5;
 // id = '5'; // error cuz types cant be changed
 console.log(`ID: ${id}`);
-let company:string  = "Wells Fargo";
+let company:string  = "some company";
 let isPublished : boolean = true;
 let x:any = "hello";
 x = false;
@@ -92,3 +92,4 @@ class Person{
 
 const Utsav:Person  = new Person(123,"Utsav");   
 Utsav.register();
+
